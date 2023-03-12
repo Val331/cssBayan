@@ -113,3 +113,45 @@ body {
         height: 60%;
     }
 }
+
+/* desktop */
+
+@media (min-width: 821px) {
+    html {
+        font-size: 15px;
+    }
+    .accourdions {
+        max-width: 128rem;
+    }
+    .wrapper__accourdions {
+        color: blueviolet;
+        transition: all .3s ease-out;
+    }
+    .wrapper__accourdions:hover {
+        color: black;
+        cursor: pointer;
+    }
+    .wrapper__accourdions:hover .accourdion-icon {
+        display: block;
+    }
+    .accourdion__label {
+        cursor: pointer;
+    }
+    .accourdion-icon {
+        display: none;
+    }
+    .accourdion__label:hover .accourdion__body {
+        opacity: 1;
+        height: 100%;
+    }
+    .accourdion__item:hover .accourdion-icon-close {
+        display: block;
+    }
+    .accourdion__item:hover .accourdion-icon-open {
+        display: none;
+    }
+    .accourdion__body img {
+        width: 50%;
+        height: 50%;
+    }
+}
