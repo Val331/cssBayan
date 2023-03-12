@@ -1,0 +1,75 @@
+html {
+    font-size: 8px;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 70%;
+    margin: auto;
+}
+
+.header__name {
+    font-size: 2rem;
+}
+
+/* accourdions */
+.accourdions {
+    max-width: 40rem;
+}
+
+.wrapper__accourdions {
+    color: blueviolet;
+}
+
+.accourdion__item {
+    border-top: .1rem solid #aaa;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.accourdion__input {
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+.accourdion__title {
+    display: block;
+}
+
+.accourdion__body {
+    opacity: 0;
+    height: 0;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+
+.accourdion__body img {
+    width: 90%;
+    height: 90%;
+}
+
+.accourdion__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.accourdion-icon {
+    display: block;
+}
+
+.accourdion-icon-close {
+    display: none;
+}
